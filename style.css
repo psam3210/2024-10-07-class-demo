@@ -1,0 +1,29 @@
+h1 {
+  color: green;
+}
+
+li.complete {
+  opacity: 0.5;
+}
+
+body {
+  max-width: 500px;
+  margin: auto;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+  margin: unset;
+  padding: unset;
+}
+
+li {
+  background-color: pink;
+  padding: 20px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+}
